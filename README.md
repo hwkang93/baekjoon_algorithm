@@ -10,3 +10,4 @@
 
 ### 완료
 1. [입출력과 사칙연산](https://github.com/hwkang93/baekjoon_algorithm/tree/master/src/level1)
+2. [If문](https://github.com/hwkang93/baekjoon_algorithm/tree/master/src/level2)
