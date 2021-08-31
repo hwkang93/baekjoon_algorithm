@@ -13,3 +13,4 @@
 2. [If문](https://github.com/hwkang93/baekjoon_algorithm/tree/master/src/level2)
 3. [for문](https://github.com/hwkang93/baekjoon_algorithm/tree/master/src/level3)
 4. [while문](https://github.com/hwkang93/baekjoon_algorithm/tree/master/src/level4)
+5. [1차원 배열](https://github.com/hwkang93/baekjoon_algorithm/tree/master/src/level5)
