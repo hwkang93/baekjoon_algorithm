@@ -15,3 +15,4 @@
 4. [while문](https://github.com/hwkang93/baekjoon_algorithm/tree/master/src/level4)
 5. [1차원 배열](https://github.com/hwkang93/baekjoon_algorithm/tree/master/src/level5)
 6. [함수](https://github.com/hwkang93/baekjoon_algorithm/tree/master/src/level6)
+7. [문자열](https://github.com/hwkang93/baekjoon_algorithm/tree/master/src/level7)
