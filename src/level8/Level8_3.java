@@ -1,4 +1,4 @@
-package Level8;
+package level8;
 
 public class Level8_3 {
     public static void main(String[] args) {

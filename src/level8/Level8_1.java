@@ -1,8 +1,6 @@
-package Level8;
+package level8;
 
-import java.io.*;
 import java.util.Scanner;
-import java.util.StringTokenizer;
 
 public class Level8_1 {
     public static void main(String[] args) {
