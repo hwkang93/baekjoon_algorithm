@@ -24,7 +24,7 @@ public class Level7_10 {
     }
 
     /**
-     *  0. 문자열 StringBuffer에 담음 (특정 위치 문자열 쉽게 변경하기 위해)
+     *  0. 문자열 StringBuilder 에 담음 (특정 위치 문자열 쉽게 변경하기 위해)
      *
      *  1. 연속된 문자열 공백 문자열(" ")으로 치환
      *  2. 공백 문자열 모두 소거
@@ -32,7 +32,7 @@ public class Level7_10 {
      *  4. 중복된 문자열이 없으면 1, 있으면 0 리턴
      */
     public static int groupWordChecker(String str) {
-        StringBuffer sb = new StringBuffer();
+        StringBuilder sb = new StringBuilder();
         sb.append(str);
         /**
          *  i번째와 i+1번째의 문자열이 같을 경우 i번째의 문자열을 공백 문자열로 치환.
