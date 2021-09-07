@@ -1,12 +1,14 @@
 # Level7_6.java
+
 ## 1152. 단어의 개수
 
 - **내가 짰던 소스코드**
 
 ```java
 import java.util.Scanner;
-class Main {
-    public static void main(String[]) {
+
+public class Main {
+    public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         String str = scanner.next().trim();
 
@@ -14,9 +16,10 @@ class Main {
     }
 }
 ```
+
 예제로 주어진 문자열들의 테스트는 모두 성공을 했다. 하지만 결과는 실패
 
-</br>
+<br/>
 
 - **실패한 이유**
 
@@ -29,7 +32,7 @@ if (off == 0)
 return new String[]{this};
 ```
 
-값이 없는 경우 스트링 배열에 ```this```를 담아 리턴하도록 되어있는데, 
+값이 없는 경우 스트링 배열에 ```this```를 담아 리턴하도록 되어있는데,
 
 여기서 ```this```는 파라미터로 받았던 빈 문자열을 의미한다.
 
@@ -37,7 +40,7 @@ return new String[]{this};
 
 출제자의 의도에 따르면 빈 문자열의 리턴값은 1이 아닌 0으로 나와야 하는데 이부분까지 고려 못했기 때문에 틀렸다.
 
-</br>
+<br/>
 
 - **마무리**
 
