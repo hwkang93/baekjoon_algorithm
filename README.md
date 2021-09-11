@@ -8,7 +8,6 @@
 - 모르는 알고리즘 개념은 정리해서 블로그에 올리기
 
 ### 진행중
-9. [기본 수학 2](https://github.com/hwkang93/baekjoon_algorithm/tree/master/src/level9)
 10. [재귀](https://github.com/hwkang93/baekjoon_algorithm/tree/master/src/level10)
 
 ### 완료
@@ -20,3 +19,4 @@
 6. [함수](https://github.com/hwkang93/baekjoon_algorithm/tree/master/src/level6)
 7. [문자열](https://github.com/hwkang93/baekjoon_algorithm/tree/master/src/level7)
 8. [기본 수학 1](https://github.com/hwkang93/baekjoon_algorithm/tree/master/src/level8)
+9. [기본 수학 2](https://github.com/hwkang93/baekjoon_algorithm/tree/master/src/level9)
