@@ -9,6 +9,7 @@
 
 ### 진행중
 10. [재귀](https://github.com/hwkang93/baekjoon_algorithm/tree/master/src/level10)
+11. [브루트 포스](https://github.com/hwkang93/baekjoon_algorithm/tree/master/src/level11)
 
 ### 완료
 1. [입출력과 사칙연산](https://github.com/hwkang93/baekjoon_algorithm/tree/master/src/level1)
