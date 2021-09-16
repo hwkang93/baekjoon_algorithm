@@ -81,8 +81,32 @@ class Main {
 
 데이터가 이미 거의 정렬된 상태에 한해서는 어떤 알고리즘보다도 빠르다.
 
-
 시간 복잡도 O(N^2)
+
+```java
+class Main {
+    public static void insertionSort(int[] arr) {
+        for(int i=0; i<arr.length-1; i++) {
+            int j=i;
+            while (j >= 0 && arr[j] > arr[j+1]) {
+                int temp = arr[j];
+                arr[j] = arr[j+1];
+                arr[j+1] = temp;
+                j--;
+            }
+        }
+    }
+
+    public void print(int[] arr) {
+        for (int i = 0; i < arr.length; i++) {
+            System.out.print(arr[i] + " ");
+        }
+
+        System.out.println();
+    }
+}
+```
+
 
 ### 참고 블로그
 [동빈나 블로그](https://m.blog.naver.com/ndb796/)
