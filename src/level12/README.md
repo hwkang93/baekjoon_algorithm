@@ -107,6 +107,21 @@ class Main {
 }
 ```
 
+### JAVA 에서 제공하는 정렬 함수들이 사용하고 있는 알고리즘
+
+- Arrays.sort() 는 **dual-pivot Quicksort** 알고리즘을 사용한다.
+  - 평균 시간복잡도 : O(n long n)
+  - 최악의 경우 : O(n^2)
+- Collections.sort() 는 Timsort를 사용한다.
+  - Timsort 는 합병 및 삽입 정렬을 사용한다.
+  - Timsort 처럼 두 가지 알고리즘이 섞여 있는 정렬 알고리즘을 **hybrid sorting algorithm** 이라고 한다.
+  - hybrid sorting algorithm 은 안정 정렬(stable sort)이기 때문에 hybrid stable sorting algorithm 이라고도 한다.
+- 합병 정렬(Merge Sort)의 경우 최선, 최악 모두 O(n log n) 의 시간복잡도를 가진다.
+- 삽입 정렬(Insertion sort)의 경우 최선은 O(n), 최악의 경우는 O(n^2)의 시간복잡도를 가진다.
+
+
 
 ### 참고 블로그
 [동빈나 블로그](https://m.blog.naver.com/ndb796/)
+
+[st-lab 블로그](https://st-lab.tistory.com/106)
