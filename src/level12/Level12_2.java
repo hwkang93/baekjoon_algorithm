@@ -32,6 +32,5 @@ public class Level12_2 {
         }
 
         System.out.println(stringBuilder);
-
     }
 }
