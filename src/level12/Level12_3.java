@@ -14,7 +14,7 @@ import java.io.InputStreamReader;
  */
 public class Level12_3 {
     public static void main(String[] args) {
-        //문제에서 카운팅 배열을 사용하라고 해서 카운팅 배열을 사용하도록 함.
+        //문제에서 카운팅 알고리즘을 사용하라고 해서 카운팅 알고리즘을 사용하도록 함.
         //주의사항 : 중복이 가능하다.
         int[] countingArr = new int[10001];
 
