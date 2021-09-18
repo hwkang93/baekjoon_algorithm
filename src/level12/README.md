@@ -107,6 +107,42 @@ class Main {
 }
 ```
 
+### 카운팅 정렬(Counting Sort)
+
+counting 배열을 하나 만들고 정렬할 배열의 값들을 counting 배열의 인덱스로 추가하는 방식
+
+다른 정렬과는 다르게 배열의 다른 값과 비교하지 않는다.
+
+```java
+public class Level12_3 {
+  public static void main(String[] args) {
+    int[] arr = {5, 2, 1, 6, 3, 7, 9, 8, 4};
+    //범위 : 수의 범위 만큼
+    int[] countArr = new int[10001];
+    int[] resultArr = new int[arr.length];
+
+    for (int i = 0; i < arr.length; i++) {
+      countArr[arr[i]] += 1;
+    }
+
+    for (int i = 1; i < countArr.length - 1; i++) {
+      countArr[i] += countArr[i - 1];
+    }
+
+    for (int i = arr.length - 1; i >= 0; i--) {
+      int value = arr[i];
+      countArr[value]--;
+      resultArr[countArr[value]] = value;
+    }
+
+    for (int i = 0; i < resultArr.length; i++) {
+      System.out.println(resultArr[i]);
+    }
+  }
+}
+
+```
+
 ### JAVA 에서 제공하는 정렬 함수들이 사용하고 있는 알고리즘
 
 - Arrays.sort() 는 **dual-pivot Quicksort** 알고리즘을 사용한다.
