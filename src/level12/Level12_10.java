@@ -1,0 +1,39 @@
+package level12;
+
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
+import java.util.*;
+
+public class Level12_10 {
+    public static void main(String[] args) throws IOException {
+        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+        int N = Integer.parseInt(br.readLine());
+
+        String[] input = br.readLine().split(" ");
+        int[] nums = new int[N];
+        for (int i = 0; i < N; i++) {
+            nums[i] = Integer.parseInt(input[i]);
+        }
+
+        //TODO sort는 왜 하는걸까??
+        //굳이 안해도 상관없지 않음?
+        int[] sortNums = nums.clone();
+        Arrays.sort(sortNums);
+
+        Map<Integer, Integer> map = new HashMap<>();
+        int idx = 0;
+        for (int n : sortNums) {
+            if (!map.containsKey(n)) {
+                map.put(n, idx++);
+            }
+        }
+
+        StringBuilder sb = new StringBuilder();
+        for (int n : nums) {
+            sb.append(map.get(n)).append(' ');
+        }
+
+        System.out.println(sb.toString());
+    }
+}
