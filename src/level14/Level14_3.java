@@ -18,6 +18,8 @@ public class Level14_3 {
 
     public static int[] node;
     public static int n, m;
+
+    //System.out.println 으로 출력하니까 시간초과 됐음.
     public static StringBuilder stringBuilder = new StringBuilder();
 
     public static void main(String[] args) {
