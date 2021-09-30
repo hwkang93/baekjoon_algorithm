@@ -12,7 +12,6 @@
 >   -> 보류. 몰라도 너무 모른다. 
 
 ### 진행중
-15. [동적 계획법](https://github.com/hwkang93/baekjoon_algorithm/tree/master/src/level15)
 16. [그리디 알고리즘](https://github.com/hwkang93/baekjoon_algorithm/tree/master/src/level16)
 17. [정수론 및 조합론](https://github.com/hwkang93/baekjoon_algorithm/tree/master/src/level17)
 
@@ -33,6 +32,10 @@
 13. 집합과 맵
 14. [백트랙킹](https://github.com/hwkang93/baekjoon_algorithm/tree/master/src/level14)
 
+### 보류
+15. [동적 계획법](https://github.com/hwkang93/baekjoon_algorithm/tree/master/src/level15)
+
+
 
 <br/>
 
@@ -42,4 +45,10 @@
 
 ### 개념 정리 링크
 
-
+- [연산자 정리](https://github.com/hwkang93/baekjoon_algorithm/tree/master/src/level1/README.md)
+- [에라토스테네스의 체](https://github.com/hwkang93/baekjoon_algorithm/tree/master/src/level9/README.md)
+- [정렬 알고리즘 - 선택 정렬, 버블 정렬, 삽입 정렬, 카운팅 정렬](https://github.com/hwkang93/baekjoon_algorithm/tree/master/src/level12/README.md)
+- [JAVA 에서 제공하는 정렬 함수들이 사용하고 있는 알고리즘](https://github.com/hwkang93/baekjoon_algorithm/tree/master/src/level12/README.md)
+- [백트래킹](https://github.com/hwkang93/baekjoon_algorithm/tree/master/src/level14/README.md)
+- [DFS(깊이우선탐색)](https://github.com/hwkang93/baekjoon_algorithm/tree/master/src/level14/README.md)
+- 
