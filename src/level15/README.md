@@ -1,6 +1,7 @@
 ## 동적 계획법 ( Dynamic Programming )
 
-[참고 블로그](https://st-lab.tistory.com/123)
+[참고 블로그 1. st-lab](https://st-lab.tistory.com/123)
+[참고 블로그 1. 동빈나 네이버 블로그](https://blog.naver.com/PostView.nhn?blogId=ndb796&logNo=221233570962&redirect=Dlog&widgetTypeCall=true&directAccess=false)
 
 > 도움을 너무 많이 받고 있어서 좋은 글 감사하다고 커피라도 한잔 사다 드리고 싶다 ㅠ
  
@@ -11,6 +12,12 @@
 -> 이미 풀렸던 값을 재활용하는 것 
 
 -> **메모이제이션(Memoization)**
+
+동적 계획법은 다음의 가정 하에 사용할 수 있다.
+
+1. 큰 문제를 작은 문제로 나눌 수 있다.
+2. 작은 문제에서 구한 정답은 그것을 포함하는 큰 문제에서도 동일하다.
+
 
 동적계획법 구현 방식으로는 재귀 방식, 반복문 방식이 있다.
 
