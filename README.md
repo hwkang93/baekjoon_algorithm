@@ -12,7 +12,6 @@
 >   -> 보류. 몰라도 너무 모른다. 
 
 ### 진행중
-16. [그리디 알고리즘](https://github.com/hwkang93/baekjoon_algorithm/tree/master/src/level16)
 17. [정수론 및 조합론](https://github.com/hwkang93/baekjoon_algorithm/tree/master/src/level17)
 
 
@@ -31,17 +30,15 @@
 12. [정렬](https://github.com/hwkang93/baekjoon_algorithm/tree/master/src/level12)
 13. 집합과 맵
 14. [백트랙킹](https://github.com/hwkang93/baekjoon_algorithm/tree/master/src/level14)
+16. [그리디 알고리즘](https://github.com/hwkang93/baekjoon_algorithm/tree/master/src/level16)
 
 ### 보류
 15. [동적 계획법](https://github.com/hwkang93/baekjoon_algorithm/tree/master/src/level15)
 
 
 
-<br/>
 
 ------
-
-<br/>
 
 ### 개념 정리 링크
 
@@ -52,3 +49,11 @@
 - [백트래킹](https://github.com/hwkang93/baekjoon_algorithm/tree/master/src/level14/README.md)
 - [DFS(깊이우선탐색)](https://github.com/hwkang93/baekjoon_algorithm/tree/master/src/level14/README.md)
 - 
+
+
+-----------------------------------
+
+###기타 참고
+
+- [GitHub 에서 수식 사용하기](https://github.com/zeuseyera/Markdown_TongDal-kr)
+- [수식 만드는 페이지](https://latex.codecogs.com/)
