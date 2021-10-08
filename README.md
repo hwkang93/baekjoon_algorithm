@@ -12,8 +12,8 @@
 >   -> 보류. 몰라도 너무 모른다. 
 
 ### 진행중
-17. [정수론 및 조합론](https://github.com/hwkang93/baekjoon_algorithm/tree/master/src/level17)
 
+15. [동적 계획법](https://github.com/hwkang93/baekjoon_algorithm/tree/master/src/level15)
 
 ### 완료
 1. [입출력과 사칙연산](https://github.com/hwkang93/baekjoon_algorithm/tree/master/src/level1)
@@ -31,9 +31,8 @@
 13. 집합과 맵
 14. [백트랙킹](https://github.com/hwkang93/baekjoon_algorithm/tree/master/src/level14)
 16. [그리디 알고리즘](https://github.com/hwkang93/baekjoon_algorithm/tree/master/src/level16)
+17. [정수론 및 조합론](https://github.com/hwkang93/baekjoon_algorithm/tree/master/src/level17)
 
-### 보류
-15. [동적 계획법](https://github.com/hwkang93/baekjoon_algorithm/tree/master/src/level15)
 
 
 
