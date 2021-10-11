@@ -30,7 +30,6 @@ public class Level15_5 {
 
     public static void main(String[] args) throws IOException {
         BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(System.in));
-        StringBuilder stringBuilder = new StringBuilder();
 
         StringTokenizer stringTokenizer;
 
