@@ -14,7 +14,7 @@
 ### 진행중
 
 15. [동적 계획법](https://github.com/hwkang93/baekjoon_algorithm/tree/master/src/level15)
-16. [스택](https://github.com/hwkang93/baekjoon_algorithm/tree/master/src/level18)
+16. [큐, 덱](https://github.com/hwkang93/baekjoon_algorithm/tree/master/src/level19)
 
 ### 완료
 1. [입출력과 사칙연산](https://github.com/hwkang93/baekjoon_algorithm/tree/master/src/level1)
@@ -31,9 +31,9 @@
 12. [정렬](https://github.com/hwkang93/baekjoon_algorithm/tree/master/src/level12)
 13. 집합과 맵
 14. [백트랙킹](https://github.com/hwkang93/baekjoon_algorithm/tree/master/src/level14)
-16. [그리디 알고리즘](https://github.com/hwkang93/baekjoon_algorithm/tree/master/src/level16)
-17. [정수론 및 조합론](https://github.com/hwkang93/baekjoon_algorithm/tree/master/src/level17)
-
+15. [그리디 알고리즘](https://github.com/hwkang93/baekjoon_algorithm/tree/master/src/level16)
+16. [정수론 및 조합론](https://github.com/hwkang93/baekjoon_algorithm/tree/master/src/level17)
+17. [스택](https://github.com/hwkang93/baekjoon_algorithm/tree/master/src/level18)
 
 
 
