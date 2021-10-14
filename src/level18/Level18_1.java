@@ -54,7 +54,7 @@ public class Level18_1 {
         System.out.println(stringBuilder);
     }
 
-    static class Stack {
+    static private class Stack {
         private int[] arr = new int[10000];
         private int size = 0;
 
