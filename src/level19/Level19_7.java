@@ -19,13 +19,9 @@ public class Level19_7 {
             int n = Integer.parseInt(bufferedReader.readLine());
             Deque<Integer> deque = new LinkedList<>();
             StringTokenizer st = new StringTokenizer(bufferedReader.readLine(),"[,]");
+
             while (st.hasMoreElements()) {
                 deque.offer(Integer.parseInt(st.nextToken()));
-            }
-
-            if(deque.size() != n) {
-                stringBuilder.append("error").append("\n");
-                continue;
             }
 
             boolean isReversed = false;
@@ -43,28 +39,27 @@ public class Level19_7 {
                         deque.removeFirst();
                     }
                 }
+
+                //결과
+                stringBuilder.append("[");
+                if(isReversed) {
+                    while (!deque.isEmpty()) {
+                        stringBuilder.append(deque.pollLast()).append(",");
+                    }
+                }
+                else {
+                    while (!deque.isEmpty()) {
+                        stringBuilder.append(deque.pollFirst()).append(",");
+                    }
+                }
+
+                stringBuilder.deleteCharAt(stringBuilder.lastIndexOf(","));
+
+                stringBuilder.append("]").append("\n");
             } catch (NoSuchElementException e) {
                 stringBuilder.append("error").append("\n");
             }
 
-            //결과
-            stringBuilder.append("[");
-            if(isReversed) {
-                for(int j = 0; j < deque.size(); j++) {
-                    stringBuilder.append(deque.pollLast()).append(",");
-                }
-            }
-            else {
-                for(int j = 0; j < deque.size(); j++) {
-                    stringBuilder.append(deque.pollFirst()).append(",");
-                }
-            }
-
-            if(!deque.isEmpty()) {
-                stringBuilder.deleteCharAt(stringBuilder.lastIndexOf(","));
-            }
-
-            stringBuilder.append("]").append("\n");
         }
 
         System.out.println(stringBuilder);
