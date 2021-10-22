@@ -52,8 +52,9 @@ public class Level19_7 {
                         stringBuilder.append(deque.pollFirst()).append(",");
                     }
                 }
-
-                stringBuilder.deleteCharAt(stringBuilder.lastIndexOf(","));
+                if(stringBuilder.lastIndexOf(",") > -1) {
+                    stringBuilder.deleteCharAt(stringBuilder.lastIndexOf(","));
+                }
 
                 stringBuilder.append("]").append("\n");
             } catch (NoSuchElementException e) {
