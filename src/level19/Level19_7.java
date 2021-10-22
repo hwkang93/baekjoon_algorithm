@@ -8,6 +8,36 @@ import java.util.LinkedList;
 import java.util.NoSuchElementException;
 import java.util.StringTokenizer;
 
+/*
+오류 케이스
+[입력]
+4
+RDD
+4
+[1,2,3,4]
+DD
+1
+[42]
+RRD
+6
+[1,1,2,3,5,8]
+R
+0
+[]
+
+[출력]
+[2,1]
+error
+[1,2,3,58]
+[]
+
+[올바른 답]
+[2,1]
+error
+[1,2,3,5,8]
+[]
+
+ */
 public class Level19_7 {
     public static void main(String[] args) throws IOException {
         BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(System.in));
