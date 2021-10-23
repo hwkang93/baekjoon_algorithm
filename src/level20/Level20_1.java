@@ -32,7 +32,22 @@ public class Level20_1 {
     }
 
     public static void check(int start, int end, int startColor) {
+        if(start == end) {
+            if(startColor == WHITE) {
+                whiteCount += 1;
+            }
+            else {
+                blueCount += 1;
+            }
 
+            return;
+        }
+
+        for(int i=start; i<end; i++) {
+            for(int j=start; j<end; j++) {
+
+            }
+        }
 
     }
 }
