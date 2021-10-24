@@ -8,8 +8,10 @@ import java.util.StringTokenizer;
 
 public class Level20_1 {
 
-    public static final int BLUE = 1;
     public static final int WHITE = 0;
+    public static final int BLUE = 1;
+
+    static int[][] confetti;
 
     public static int blueCount = 0;
     public static int whiteCount = 0;
@@ -19,7 +21,7 @@ public class Level20_1 {
 
         int n = Integer.parseInt(bufferedReader.readLine());
 
-        int[][] confetti = new int[n][n];
+        confetti = new int[n][n];
         StringTokenizer stringTokenizer;
 
         for(int i = 0; i < n; i++) {
@@ -32,6 +34,24 @@ public class Level20_1 {
     }
 
     public static void check(int start, int end, int startColor) {
+        if(start == end) {
+            if(startColor == BLUE) {
+                blueCount += 1;
+            } else {
+                whiteCount += 1;
+            }
+            return;
+        }
+
+        boolean is = false;
+
+        for(int i = start; i < end; i++) {
+            for(int j = start; j < end; j++) {
+                if (startColor != confetti[i][j]) {
+
+                }
+            }
+        }
 
 
     }
