@@ -49,12 +49,15 @@
 - [JAVA 에서 제공하는 정렬 함수들이 사용하고 있는 알고리즘](https://github.com/hwkang93/baekjoon_algorithm/tree/master/src/level12/README.md)
 - [백트래킹](https://github.com/hwkang93/baekjoon_algorithm/tree/master/src/level14/README.md)
 - [DFS(깊이우선탐색)](https://github.com/hwkang93/baekjoon_algorithm/tree/master/src/level14/README.md)
-- 
+- [최대공약수 및 유클리드 호제법](https://github.com/hwkang93/baekjoon_algorithm/tree/master/src/level17/README.md)
+- [조합(combination)](https://github.com/hwkang93/baekjoon_algorithm/tree/master/src/level17/README.md)
+- [이항계수](https://github.com/hwkang93/baekjoon_algorithm/tree/master/src/level17/README.md)
+- [모듈러 연산의 활용](https://github.com/hwkang93/baekjoon_algorithm/tree/master/src/level17/README.md)
 
 
 -----------------------------------
 
-###기타 참고
+### 기타 참고
 
 - [GitHub 에서 수식 사용하기](https://github.com/zeuseyera/Markdown_TongDal-kr)
 - [수식 만드는 페이지](https://latex.codecogs.com/)
