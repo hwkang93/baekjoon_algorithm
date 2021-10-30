@@ -32,7 +32,7 @@ public class Level20_7 {
             stringTokenizer = new StringTokenizer(bufferedReader.readLine(), " ");
 
             for(int j=0; j<n; j++) {
-                matrix[i][j] = Integer.parseInt(stringTokenizer.nextToken());
+                matrix[i][j] = Integer.parseInt(stringTokenizer.nextToken()) % P;
             }
         }
 
@@ -60,14 +60,6 @@ public class Level20_7 {
      */
     public static int[][] pow(int[][] matrix, long exponent) {
         if(exponent == 1) {
-            int length = matrix.length;
-            int[][] result = new int[length][length];
-
-            for(int i=0; i<length; i++) {
-                for(int j=0; j<length; j++) {
-                    result[i][j] = matrix[i][j] % P;
-                }
-            }
 
             return matrix;
         }

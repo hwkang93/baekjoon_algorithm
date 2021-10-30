@@ -47,5 +47,4 @@ public class Level20_5 {
 
         return temp * temp % P;
     }
-
 }
