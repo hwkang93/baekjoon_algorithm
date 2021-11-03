@@ -26,7 +26,7 @@ public class Level20_5 {
         long result = 1;
 
         for(int i=2; i<=n; i++) {
-            result = result * i;
+            result = result * i % P;
         }
 
         return result;
