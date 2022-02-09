@@ -3,27 +3,21 @@ package level1;
 import java.util.Scanner;
 
 /**
- * 2588.
- *      (세 자리 수)x(세 자리 수)는 다음과 같은 과정을 통하여 이루어진다.
- *            4 7 2   > (1)
- *          x 3 8 5   > (2)
- *      -----------
- *          2 3 6 0   > (3)
- *        3 7 7 6     > (4)
- *      1 4 1 6       > (5)
- *      -----------
- *      1 8 1 7 2 0   > (6)
- *      (1)과 (2)위치에 들어갈 세 자리 자연수가 주어질 때 (3), (4), (5), (6)위치에 들어갈 값을 구하는 프로그램을 작성하시오.
+ * 18108. 1998년생인 내가 태국에서는 2541년생?!
+ *      ICPC Bangkok Regional에 참가하기 위해 수완나품 국제공항에 막 도착한 팀 레드시프트 일행은 눈을 믿을 수 없었다.
+ *      공항의 대형 스크린에 올해가 2562년이라고 적혀 있던 것이었다.
+ *      불교 국가인 태국은 불멸기원(佛滅紀元), 즉 석가모니가 열반한 해를 기준으로 연도를 세는 불기를 사용한다. 반면, 우리나라는 서기 연도를 사용하고 있다.
+ *      불기 연도가 주어질 때 이를 서기 연도로 바꿔 주는 프로그램을 작성하시오.
+ *
+ *      서기 연도를 알아보고 싶은 불기 연도 y가 주어진다. (1000 ≤ y ≤ 3000)
+ *
+ *      불기 연도를 서기 연도로 변환한 결과를 출력한다.
  */
 public class Level1_11 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         int a = scanner.nextInt();
-        int b = scanner.nextInt();
 
-        System.out.println(a * ((b / 1) % 10));
-        System.out.println(a * ((b / 10) % 10));
-        System.out.println(a * ((b / 100) % 10));
-        System.out.println(a * b);
+        System.out.println(a - 543);
     }
 }

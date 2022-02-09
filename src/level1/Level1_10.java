@@ -3,21 +3,19 @@ package level1;
 import java.util.Scanner;
 
 /**
- * 10430.
- *      (A+B)%C는 ((A%C) + (B%C))%C 와 같을까?
- *      (A×B)%C는 ((A%C) × (B%C))%C 와 같을까?
- *      세 수 A, B, C가 주어졌을 때, 위의 네 가지 값을 구하는 프로그램을 작성하시오.
+ * 10926. ??!
+ *      준하는 사이트에 회원가입을 하다가 joonas 라는 아이디가 이미 존재하는 것을 보고 놀랐다. 준하는 놀람을 ??!로 표현한다.
+ *      준하가 가입하려고 하는 사이트에 이미 존재하는 아이디가 주어졌을 때, 놀람을 표현하는 프로그램을 작성하시오.
+ *
+ *      첫째 줄에 준하가 가입하려고 하는 사이트에 이미 존재하는 아이디가 주어진다. 아이디는 알파벳 소문자로만 이루어져 있으며, 길이는 50자를 넘지 않는다.
+ *
+ *      첫째 줄에 준하의 놀람을 출력한다. 놀람은 아이디 뒤에 ??!를 붙여서 나타낸다.
  */
 public class Level1_10 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        int a = scanner.nextInt();
-        int b = scanner.nextInt();
-        int c = scanner.nextInt();
+        String input = scanner.next();
 
-        System.out.println((a + b) % c);
-        System.out.println(((a % c) + (b % c)) % c);
-        System.out.println((a * b) % c);
-        System.out.println(((a % c ) * (b % c)) % c);
+        System.out.println(input + "??!");
     }
 }
